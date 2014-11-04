@@ -7,7 +7,6 @@ Router.configure({
   notFoundTemplate: 'NotFound'
 });
 
-/*
- *  Example:
- *  Router.route('/', {name: 'home'});
-*/
+Router.route('/', {name: 'home'});
+Router.route('/add/student', {name: 'addStudent'});
+Router.route('/edit/student', {name: 'editStudent'});
