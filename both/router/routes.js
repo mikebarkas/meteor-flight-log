@@ -10,3 +10,8 @@ Router.configure({
 Router.route('/', {name: 'home'});
 Router.route('/add/student', {name: 'addStudent'});
 Router.route('/edit/student', {name: 'editStudent'});
+
+// List students
+// Lesson type
+// Flight record
+// Aircraft reference
